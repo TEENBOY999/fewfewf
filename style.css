@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ota {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
+
+  .box1 {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    }
+    
+    .box2 {
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        }
+    
+        .box3 {
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            }
+    
+            .box4 {
+                background-color: grey;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                }
+    
+                .box5 {
+                    background-color: grey;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    }
+    
+                    .box6 {
+                        background-color: gold;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #fff;
+                        font-size: 70px;
+                        }
+
+                        .box7 {
+                            background-color: yellow;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: #fff;
+                            }
+            
+                            .box8 {
+                                background-color: aqua;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #fff;
+                                }
+
+                                .box3 {
+                                    grid-column: span 2;
+                                    grid-row: span 1;
+                                }
+
+                                
+                                .box6 {
+                                    grid-column: span 3;
+                                    grid-row: span 2;
+                                }
+
+                                
+                                .box5 {
+                                    grid-column: span 2;
+                                    grid-row: span 2;
+                                }
+
+                                .box7 {
+                                    grid-column: span 2;
+                                    grid-row: span 1;
+                                }
+
+
+                                .box8 {
+                                    grid-column: span 3;
+                                    grid-row: span 1;
+                                }
+
+                                .box {
+font-size: 40px;
+    border-radius: 30px;
+color: black;
+                                }
+
+                                body {
+                                    background-color: black ;
+                                }
